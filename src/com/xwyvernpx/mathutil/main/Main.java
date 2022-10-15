@@ -5,8 +5,6 @@
 package com.xwyvernpx.mathutil.main;
 
 import com.xwyvernpx.mathutil.core.MathUtil;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -22,6 +20,7 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("This message from main method");
+        System.out.println("This message comes from a US-build JAR file");
         tryTDDFirst();
     }
 
